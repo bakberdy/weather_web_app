@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-$END$
+<div class="weather-app">
+    <div class="page-hero hero-1 content-module ">
+        <div class="page-hero-content no-video">
+            <div class="page-hero-content__left">
+                <div class="featured-search-bar featured-search">
+                    <div class="searchbar-content">
+                        <form class="search-form">
+                            <input name="query" class="search-input" type="text"
+                                   placeholder="Search"
+                                   autocomplete="on">
+                        </form>
+                        <div class="button search"><button>Search</button></div>
+                        <div class="button use_current_location"><button>Use Current Location</button></div>
+                    </div>
+                    <div class="search-results">
+                        <div class="results-container">
+<!--                            search-autocomplete-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-locations">
+                    <div class="featured-locations__header">Results</div>
+                    <div class="featured-locations__locations-wrapper stacked">
+                        <div class="featured-locations__locations">
+<!-- we should add in js-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
 </body>
 </html>
