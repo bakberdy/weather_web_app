@@ -19,5 +19,5 @@ This is a simple Weather App that allows users to search for current and forecas
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/bakberdy/weather_web_app.git](https://github.com/bakberdy/weather_web_app.git)
+   git clone https://github.com/bakberdy/weather_web_app.git
    cd weather-app
