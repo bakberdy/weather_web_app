@@ -2,7 +2,7 @@
 
 This is a simple Weather App that allows users to search for current and forecasted weather information for various cities around the world. It provides a real-time autocomplete feature with suggestions while typing, using data from the OpenWeatherMap API.
 
-##You can test this app in this url [go to the site](https://bakberdy.github.io/weather_web_app/)
+## You can test this app in this url [go to the site](https://bakberdy.github.io/weather_web_app/)
 
 ## Features
 - **City Search**: Users can type in a city name to get weather data.
